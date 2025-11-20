@@ -33,5 +33,12 @@ namespace STISportsManagement
         {
 
         }
+
+        private void AdminLoginbtn_Click(object sender, EventArgs e)
+        {
+            AdminLogin adminLogin = new AdminLogin();
+            adminLogin.Show();
+            this.Hide();
+        }
     }
 }

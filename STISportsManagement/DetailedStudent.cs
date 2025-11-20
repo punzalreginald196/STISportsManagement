@@ -24,7 +24,7 @@ namespace STISportsManagement
 
         private void LoadStudentDetails()
         {
-        
+
             string[] studentDetails = { "Name: Reginald T. Punzal", "ID: " + studentId, "Course: BSIT" };
 
             foreach (string detail in studentDetails)
@@ -55,6 +55,13 @@ namespace STISportsManagement
         private void StudentView_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form1 form1 = new Form1();
+            form1.Show(); 
+            this.Hide();
         }
     }
 }

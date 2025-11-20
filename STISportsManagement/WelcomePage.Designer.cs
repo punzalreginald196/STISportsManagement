@@ -80,6 +80,7 @@
             AdminLoginbtn.TabIndex = 7;
             AdminLoginbtn.Text = "Admin Login";
             AdminLoginbtn.UseVisualStyleBackColor = false;
+            AdminLoginbtn.Click += AdminLoginbtn_Click;
             // 
             // WelcomePage
             // 

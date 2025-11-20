@@ -59,6 +59,13 @@ namespace STISportsManagement
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            WelcomePage welcomePage = new WelcomePage();
+            welcomePage.Show();
+            this.Hide();
+        }
     }
 }
 
