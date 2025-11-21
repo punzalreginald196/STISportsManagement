@@ -1,6 +1,6 @@
 ﻿namespace STISportsManagement
 {
-    partial class History
+    partial class TermsandConoditions
     {
         /// <summary>
         /// Required designer variable.
@@ -28,29 +28,51 @@
         /// </summary>
         private void InitializeComponent()
         {
-            HistoryView = new ListView();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TermsandConoditions));
             label1 = new Label();
+            label2 = new Label();
+            button1 = new Button();
+            checkBox1 = new CheckBox();
             button2 = new Button();
             SuspendLayout();
-            // 
-            // HistoryView
-            // 
-            HistoryView.Location = new Point(176, 155);
-            HistoryView.Name = "HistoryView";
-            HistoryView.Size = new Size(446, 195);
-            HistoryView.TabIndex = 0;
-            HistoryView.UseCompatibleStateImageBehavior = false;
-            HistoryView.SelectedIndexChanged += HistoryView_SelectedIndexChanged;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 28.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(304, 41);
+            label1.Location = new Point(12, 100);
             label1.Name = "label1";
-            label1.Size = new Size(190, 62);
-            label1.TabIndex = 1;
-            label1.Text = "History";
+            label1.Size = new Size(937, 260);
+            label1.TabIndex = 0;
+            label1.Text = resources.GetString("label1.Text");
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.Location = new Point(235, 26);
+            label2.Name = "label2";
+            label2.Size = new Size(407, 54);
+            label2.TabIndex = 1;
+            label2.Text = "Terms and Conditions";
+            // 
+            // button1
+            // 
+            button1.Location = new Point(387, 401);
+            button1.Name = "button1";
+            button1.Size = new Size(141, 29);
+            button1.TabIndex = 2;
+            button1.Text = "Accept";
+            button1.UseVisualStyleBackColor = true;
+            // 
+            // checkBox1
+            // 
+            checkBox1.AutoSize = true;
+            checkBox1.Location = new Point(370, 371);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(174, 24);
+            checkBox1.TabIndex = 3;
+            checkBox1.Text = "Terms and Conditions";
+            checkBox1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
@@ -62,27 +84,30 @@
             button2.TabIndex = 17;
             button2.Text = "Back";
             button2.UseVisualStyleBackColor = false;
-            button2.Click += button2_Click;
             // 
-            // History
+            // TermsandConoditions
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Yellow;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(963, 455);
             Controls.Add(button2);
+            Controls.Add(checkBox1);
+            Controls.Add(button1);
+            Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(HistoryView);
-            Name = "History";
-            Text = "History";
+            Name = "TermsandConoditions";
+            Text = "TermsandConoditions";
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private ListView HistoryView;
         private Label label1;
+        private Label label2;
+        private Button button1;
+        private CheckBox checkBox1;
         private Button button2;
     }
 }

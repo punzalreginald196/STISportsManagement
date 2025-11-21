@@ -31,6 +31,7 @@
             ProfileView = new ListView();
             label1 = new Label();
             logoutbtn = new Button();
+            button2 = new Button();
             SuspendLayout();
             // 
             // ProfileView
@@ -54,24 +55,41 @@
             // 
             // logoutbtn
             // 
+            logoutbtn.BackColor = SystemColors.Highlight;
+            logoutbtn.ForeColor = SystemColors.ButtonHighlight;
             logoutbtn.Location = new Point(379, 347);
             logoutbtn.Name = "logoutbtn";
             logoutbtn.Size = new Size(96, 29);
             logoutbtn.TabIndex = 2;
             logoutbtn.Text = "Logout";
-            logoutbtn.UseVisualStyleBackColor = true;
+            logoutbtn.UseVisualStyleBackColor = false;
             logoutbtn.Click += logoutbtn_Click;
+            // 
+            // button2
+            // 
+            button2.BackColor = SystemColors.Highlight;
+            button2.ForeColor = SystemColors.ButtonFace;
+            button2.Location = new Point(12, 12);
+            button2.Name = "button2";
+            button2.Size = new Size(51, 31);
+            button2.TabIndex = 17;
+            button2.Text = "Back";
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // Profile
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.Yellow;
             ClientSize = new Size(800, 450);
+            Controls.Add(button2);
             Controls.Add(logoutbtn);
             Controls.Add(label1);
             Controls.Add(ProfileView);
             Name = "Profile";
             Text = "Profile";
+            Load += Profile_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -81,5 +99,6 @@
         private ListView ProfileView;
         private Label label1;
         private Button logoutbtn;
+        private Button button2;
     }
 }

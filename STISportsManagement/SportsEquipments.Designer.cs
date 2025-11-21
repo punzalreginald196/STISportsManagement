@@ -41,61 +41,75 @@
             // 
             // Basketballbtn
             // 
+            Basketballbtn.BackColor = SystemColors.Highlight;
+            Basketballbtn.ForeColor = SystemColors.ButtonHighlight;
             Basketballbtn.Location = new Point(127, 169);
             Basketballbtn.Name = "Basketballbtn";
             Basketballbtn.Size = new Size(157, 66);
             Basketballbtn.TabIndex = 0;
             Basketballbtn.Text = "Basketball";
-            Basketballbtn.UseVisualStyleBackColor = true;
+            Basketballbtn.UseVisualStyleBackColor = false;
             Basketballbtn.Click += Basketballbtn_Click;
             // 
             // Volleyballbtn
             // 
+            Volleyballbtn.BackColor = SystemColors.Highlight;
+            Volleyballbtn.ForeColor = SystemColors.ButtonHighlight;
             Volleyballbtn.Location = new Point(351, 169);
             Volleyballbtn.Name = "Volleyballbtn";
             Volleyballbtn.Size = new Size(142, 61);
             Volleyballbtn.TabIndex = 1;
             Volleyballbtn.Text = "VolleyBall";
-            Volleyballbtn.UseVisualStyleBackColor = true;
+            Volleyballbtn.UseVisualStyleBackColor = false;
             Volleyballbtn.Click += Volleyballbtn_Click_1;
             // 
             // Bandmintonbtn
             // 
+            Bandmintonbtn.BackColor = SystemColors.Highlight;
+            Bandmintonbtn.ForeColor = SystemColors.ButtonHighlight;
             Bandmintonbtn.Location = new Point(557, 166);
             Bandmintonbtn.Name = "Bandmintonbtn";
             Bandmintonbtn.Size = new Size(145, 66);
             Bandmintonbtn.TabIndex = 2;
             Bandmintonbtn.Text = "Badminton";
-            Bandmintonbtn.UseVisualStyleBackColor = true;
+            Bandmintonbtn.UseVisualStyleBackColor = false;
             Bandmintonbtn.Click += Bandmintonbtn_Click_1;
             // 
             // Arnisbtn
             // 
+            Arnisbtn.BackColor = SystemColors.Highlight;
+            Arnisbtn.ForeColor = SystemColors.ButtonHighlight;
             Arnisbtn.Location = new Point(140, 286);
             Arnisbtn.Name = "Arnisbtn";
             Arnisbtn.Size = new Size(144, 56);
             Arnisbtn.TabIndex = 3;
             Arnisbtn.Text = "Arnis";
-            Arnisbtn.UseVisualStyleBackColor = true;
+            Arnisbtn.UseVisualStyleBackColor = false;
             Arnisbtn.Click += Arnisbtn_Click_1;
             // 
             // Propsbtn
             // 
+            Propsbtn.BackColor = SystemColors.Highlight;
+            Propsbtn.ForeColor = SystemColors.ButtonHighlight;
             Propsbtn.Location = new Point(351, 286);
             Propsbtn.Name = "Propsbtn";
             Propsbtn.Size = new Size(142, 56);
             Propsbtn.TabIndex = 4;
             Propsbtn.Text = "Props";
-            Propsbtn.UseVisualStyleBackColor = true;
+            Propsbtn.UseVisualStyleBackColor = false;
+            Propsbtn.Click += Propsbtn_Click;
             // 
             // GymEquipmentsbtn
             // 
+            GymEquipmentsbtn.BackColor = SystemColors.Highlight;
+            GymEquipmentsbtn.ForeColor = SystemColors.ButtonHighlight;
             GymEquipmentsbtn.Location = new Point(557, 286);
             GymEquipmentsbtn.Name = "GymEquipmentsbtn";
             GymEquipmentsbtn.Size = new Size(145, 56);
             GymEquipmentsbtn.TabIndex = 5;
             GymEquipmentsbtn.Text = "GymEquipments";
-            GymEquipmentsbtn.UseVisualStyleBackColor = true;
+            GymEquipmentsbtn.UseVisualStyleBackColor = false;
+            GymEquipmentsbtn.Click += GymEquipmentsbtn_Click_1;
             // 
             // label3
             // 
